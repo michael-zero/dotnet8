@@ -1,0 +1,63 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NPM Packages
+node_modules/
+
+# Log files
+*.log
+
+# Entity Framework
+*.mdf
+*.ldf
+*.ndf
+
+# Backup & Report files
+*.bak
+*.dmp
+*.rpt
+
+# Publish directory
+publish/
+
+# Published Web Applications
+*.Publish.xml
+*.Publish.Settings.json
+*.swf
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio 2019
+.vs/
+
+# Configuration files
+appsettings.json
+appsettings.Development.json
