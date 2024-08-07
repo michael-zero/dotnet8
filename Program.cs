@@ -20,6 +20,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options => {
 // Com isso, quando um controlador ou outro serviço solicita um IStockRepository, 
 // o ASP.NET Core irá injetar uma instância do StockRepository automaticamente.
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
 var app = builder.Build();
 
